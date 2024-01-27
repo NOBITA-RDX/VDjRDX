@@ -52,8 +52,9 @@ def stream_markup_timer(_, chat_id, played, dur):
         bar = "━━━━━━━━♪━"
     else:
         bar = "━━━━━━━━━♪"
+
     buttons = [
-                [
+        [
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
@@ -68,7 +69,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                 text="II", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="☆", callback_data=f"DAXXPlaylists {videoid}"
+                text="☆", callback_data=f"add_playlist {videoid}"
             ),
             InlineKeyboardButton(
                 text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
@@ -95,42 +96,10 @@ def stream_markup_timer(_, chat_id, played, dur):
             ),
         ],
     ]
-    return buttons
+return buttons
 
-
-def stream_markup(_, chat_id, played, dur):
-    played_sec = time_to_seconds(played)
-    duration_sec = time_to_seconds(dur)
-    percentage = (played_sec / duration_sec) * 100
-    anon = math.floor(percentage)
-    if 0 < umm <= 10:
-        bar = "♪━━━━━━━━━"
-    elif 10 < umm < 20:
-        bar = "━♪━━━━━━━━"
-    elif 20 <= umm < 30:
-        bar = "━━♪━━━━━━━"
-    elif 30 <= umm < 40:
-        bar = "━━━♪━━━━━━"
-    elif 40 <= umm < 50:
-        bar = "━━━━♪━━━━━"
-    elif 50 <= umm < 60:
-        bar = "━━━━━♪━━━━"
-    elif 60 <= umm < 70:
-        bar = "━━━━━━♪━━━"
-    elif 70 <= umm < 80:
-        bar = "━━━━━━━♪━━"
-    elif 80 <= umm < 95:
-        bar = "━━━━━━━━♪━"
-    else:
-        bar = "━━━━━━━━━♪"
-
+def stream_markup(_, chat_id):
     buttons = [
-        [
-            InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
-            )
-        ],
         [
             InlineKeyboardButton(
                 text="▷",
@@ -138,6 +107,9 @@ def stream_markup(_, chat_id, played, dur):
             ),
             InlineKeyboardButton(
                 text="II", callback_data=f"ADMIN Pause|{chat_id}"
+            ),
+            InlineKeyboardButton(
+                text="☆", callback_data=f"DAXXPlaylists {videoid}"
             ),
             InlineKeyboardButton(
                 text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
@@ -190,7 +162,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
                 text="˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl",
             ),
             InlineKeyboardButton(
-                text="˹ᴜʀ ᴡᴏʀʟᴅ˼", url="https://t.me/+RObRa7kXPIJmMjU1",
+                text="˹๏ᴜꝛ ᴡᴏʀʟᴅ˼", url="https://t.me/+RObRa7kXPIJmMjU1",
             ),
         ],
         [
@@ -198,7 +170,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
                 text="˹ᴘʟᴀʏʟɪsᴛ˼", callback_data=f"DAXXPlaylists {videoid}",
                 ),
             InlineKeyboardButton(
-                text="˹ᴏᴡɴᴇʀ˼", user_id="1777270311",
+                text="˹๏ᴡɴєꝛ˼", user_id="1777270311",
             ),
         ],
         [
@@ -214,6 +186,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ]
     ]
     return buttons
+
 
 def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
     query = f"{query[:20]}"
