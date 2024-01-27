@@ -10,7 +10,13 @@ def start_panel(_):
             InlineKeyboardButton(
                 text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"
             ),
-            InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text=_["S_B_2"], url="https://t.me/+PtOLQT04ocMzOTJl"),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["S_B_13"],
+                url="https://t.me/+muWyzsc4W9JjNDJl"
+            ),
         ],
     ]
     return buttons
@@ -19,21 +25,26 @@ def start_panel(_):
 def private_panel(_):
     buttons = [
         [
+            
+            InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper"
+            ),
+        ],
+        [
             InlineKeyboardButton(
-                text=_["S_B_3"],
-                url=f"https://t.me/{app.username}?startgroup=true",
-            )
+                text=_["S_B_2"],
+                url="https://t.me/+PtOLQT04ocMzOTJl"),
+            InlineKeyboardButton(
+                text=_["S_B_9"], 
+                url="https://t.me/+muWyzsc4W9JjNDJl"),],[
+            InlineKeyboardButton(text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"),],
+        [
+            InlineKeyboardButton(text=_["S_B_5"], user_id="1777270311"),
+            InlineKeyboardButton(text=_["S_B_7"], url="https://t.me/+m4oVCt2zFhYyMTdl"),
         ],
         [
-            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
-            InlineKeyboardButton(text=_["S_B_10"], url=config.SUPPORT_CHANNEL),
-        ],
-        [
-            InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHAT),
-            InlineKeyboardButton(text=_["S_B_7"], url="https://telegra.ph/file/e7196953649136d3f9b68.mp4"),
-        ],
-        [
-            InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper"),
+            InlineKeyboardButton(text=_["S_B_10"], url="https://t.me/+okCO84m2hZxjYTE9"),
+            InlineKeyboardButton(text=_["S_B_12"], url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw"),
+            InlineKeyboardButton(text=_["S_B_11"], url="https://t.me/+pAWm7GPhFYliOGI1"),
         ],
     ]
     return buttons
