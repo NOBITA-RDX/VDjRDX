@@ -98,23 +98,23 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-                 [
+        [
             InlineKeyboardButton(
-
-                text="◉ ᴜᴘᴅᴀᴛᴇ ",
-
-                url=f"t.me/{OWNER_USERNAME}",
-
+                text="˹sᴏᴜʀᴄᴇ˼", url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw"
             ),
             InlineKeyboardButton(
-
-                text="◉ sᴜᴘᴘᴏʀᴛ",
-
-                url=f"{SUPPORT_CHAT}",
-
+                text="˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl"
             ),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [
+            InlineKeyboardButton(
+                text="◃◃", url="https://t.me/+m4oVCt2zFhYyMTdl"),
+            InlineKeyboardButton(
+                text="𓆩🖤𓆪", user_id="1777270311"),
+            InlineKeyboardButton(
+                text="▹▹", url="https://t.me/+RObRa7kXPIJmMjU1"       
+            ),
+        ],
     ]
     return buttons
 
