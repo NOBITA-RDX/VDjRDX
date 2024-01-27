@@ -4,13 +4,13 @@
 
 
 <h2 align="center">
-    ᥫᩣ ─「 𝗥 𝗗 𝗫 𝗠𝗨𝗦𝗜𝗖 」─ ᥫᩣ
+    ᥫᩣ ─「 𝗥𝗗𝗫 𝗠𝗨𝗦𝗜𝗖 」─ ᥫᩣ
 
  ⚘ ʜᴇʀᴏᴋᴜ + ᴠᴘs ⚘
 </h2>
 <img src="https://readme-typing-svg.herokuapp.com?color=FF0786&width=420&lines=Ⰶ+ʜᴇʏ+ᴄᴜᴛɪᴇ+ᴅᴇᴘʟᴏʏ+ʙᴏᴛ+ᴏɴ+ʜᴇʀᴏᴋᴜ+Ⰶ;Ⰶ+ɪғ+ʏᴏᴜ+ᴅᴏɴ'ᴛ+ʜᴀᴠᴇ+ʜᴇʀᴏᴋᴜ+ᴀᴄᴄᴏᴜɴᴛ+Ⰶ;Ⰶ+ᴛʜᴇɴ+ᴅᴇᴘʟᴏʏ+ᴀʟsᴏ+ᴏɴ+ᴠᴘs+sᴇʀᴠᴇʀ+Ⰶ;Ⰶ+ᴘᴏᴡᴇʀᴇᴅ+ʙʏ+ʀᴅx+ᴇᴅɪᴛx+Ⰶ">
 <p align="center">
-  <img src="https://telegra.ph/file/982b01ba53c3d69b0d0ce.jpg">
+  <img src="https://graph.org/file/0aa2eb52d377e1cf4446c.jpg">
 </p>
 
 <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&width=420&lines=💌+ɪ+ᴀᴍ+⚘+ʀᴅx+ᴍᴜsɪᴄ+₰+ᴀɴᴅ+ɪ+ʜᴀᴠᴇ+sᴘᴇᴄɪᴀʟ+ғᴜᴛᴜʀᴇs+🧋;💌+ғʀɪsᴛ+ʏᴏᴜ+ғᴏʀᴋ+ᴛʜɪs+ʀᴇᴘᴏ+ᴛʜᴇɴ+ᴅᴇᴘʟᴏʏ+ʏᴏᴜʀ+ʙᴏᴛ+🧋">
@@ -32,13 +32,13 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?color=white&width=420&lines=💥+ɪғ+ᴀɴʏ+ᴇʀʀᴏʀ+ᴛʜᴇɴ+sᴇɴᴅ+ᴍᴇ+ᴇʀʀᴏʀ+ɪɴ+ʀᴅx+ᴇᴅɪᴛx+...">
 <p align="center">
-<a href="https://telegram.me/THE_Friendz"><img src="https://img.shields.io/badge/-๛DM TO Rdx EdiTX%20☆-FF00FF.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/+PtOLQT04ocMzOTJl"><img src="https://img.shields.io/badge/-๛DM TO Rdx RAj%20☆-FF00FF.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/tinaarobot/DAXXMUSIC/blob/master/sample.env)
+- Get your [Necessary Variables](https://github.com/NOBITA-RDX/VDjRDX/blob/master/sample.env)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
@@ -71,11 +71,11 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 </h3>
 
 <p align="center">
-<a href="https://t.me/+PtOLQT04ocMzOTJl"><img src="https://img.shields.io/badge/-THE%20FRIENDZ-FFFF00.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/+PtOLQT04ocMzOTJl"><img src="https://img.shields.io/badge/-RDX%20WORLD-FFFF00.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
-<a href="https://telegram.me/ARDX29"><img src="https://img.shields.io/badge/-ROY%20EDITX-00FFFF.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/ARDX29"><img src="https://img.shields.io/badge/-RDX%20RAJ-00FFFF.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
