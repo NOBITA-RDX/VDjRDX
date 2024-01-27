@@ -1,7 +1,7 @@
 {
-    "name": "NYKAA MUSIC",
+    "name": "RDX MUSIC",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/dbb3222d0fd3712e2a0e4.jpg",
+    "logo": "https://graph.org/file/0aa2eb52d377e1cf4446c.jpg",
     "keywords": [
     "python3",
     "telegram",
