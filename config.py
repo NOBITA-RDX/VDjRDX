@@ -12,24 +12,24 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "PAWAN_IS_BACK")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_RJ29RDX_ll"
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "LOVER_X_MUSIC_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME", "RdxMusic1Bot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "LOVER MUSIC")
+BOT_NAME = getenv("BOT_NAME", "RDX MUSIC")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "LOVER_ASS")
-EVALOP = list(map(int, getenv("EVALOP", "6178528303").split()))
+ASSUSERNAME = getenv("ASSUSERNAME", "RDX_ASS")
+EVALOP = list(map(int, getenv("EVALOP", "1777270311").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sanasomani786:TJgADfpkI1XVUkKt@cluster0.ruhyad9.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 2880))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", --1001909684210))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001787495771))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6329937391"))
+OWNER_ID = int(getenv("OWNER_ID", "1777270311"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,15 +39,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/code663/DAXXMUSIC",
+    "https://github.com/NOBITA-RDX/VDjRDX",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ANGEL_K_WORLD")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/mr_editx")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+RObRa7kXPIJmMjU1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+PtOLQT04ocMzOTJl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
