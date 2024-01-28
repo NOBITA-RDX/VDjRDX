@@ -14,11 +14,11 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_RJ29RDX_ll")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "RdxMusic1Bot")
+BOT_USERNAME = getenv("BOT_USERNAME", "˹ꝛᴅꭙ ꭙ мᴜsɪᴄ˼")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "˹ꝛᴅꭙ мᴜsɪᴄ˼")
+BOT_NAME = getenv("BOT_NAME", "˹ꝛᴅꭙ ꭙ мᴜsɪᴄ˼")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "RDX_ASS")
+ASSUSERNAME = getenv("ASSUSERNAME", "RDXAss")
 EVALOP = list(map(int, getenv("EVALOP", "1777270311").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sanasomani786:TJgADfpkI1XVUkKt@cluster0.ruhyad9.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
