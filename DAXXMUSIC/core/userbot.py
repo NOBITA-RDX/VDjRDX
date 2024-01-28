@@ -11,14 +11,14 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="DAXXAss1",
+            name="RDXAss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="DAXXAss2",
+            name="RDXAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
@@ -32,14 +32,14 @@ class Userbot(Client):
             no_updates=True,
         )
         self.four = Client(
-            name="DAXXAss4",
+            name="RDXAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            name="DAXXAss5",
+            name="RDXAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -74,9 +74,9 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("The_friendz")
+                await self.two.join_chat("https://t.me/+RObRa7kXPIJmMjU1")
                 
-                await self.one.join_chat("roy_editx")
+                await self.one.join_chat("https://t.me/+PtOLQT04ocMzOTJl")
             except:
                 pass
             assistants.append(2)
@@ -96,9 +96,9 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("The_friendz")
+                await self.three.join_chat("https://t.me/+RObRa7kXPIJmMjU1")
                 
-                await self.one.join_chat("roy_editx")
+                await self.one.join_chat("https://t.me/+PtOLQT04ocMzOTJl")
             except:
                 pass
             assistants.append(3)
@@ -118,9 +118,9 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("The_friendz")
+                await self.four.join_chat("https://t.me/+RObRa7kXPIJmMjU1")
                 
-                await self.one.join_chat("roy_editx")
+                await self.one.join_chat("https://t.me/+PtOLQT04ocMzOTJl")
             except:
                 pass
             assistants.append(4)
@@ -140,9 +140,9 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("The_friendz")
+                await self.five.join_chat("https://t.me/+RObRa7kXPIJmMjU1")
                 
-                await self.one.join_chat("roy_editx")
+                await self.one.join_chat("https://t.me/+PtOLQT04ocMzOTJl")
             except:
                 pass
             assistants.append(5)
