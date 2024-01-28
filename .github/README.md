@@ -1,5 +1,5 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
- <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=🧋+𝗛𝗔𝗣𝗣𝗬+𝗡𝗘𝗪+𝗬𝗘𝗔𝗥+❷⓿❷❹+🧋">
+ <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=𝗝𝗔𝗔𝗡𝗨 𝗥𝗗𝗫 𝗞𝗜 𝗧𝗔𝗥𝗙 𝗦𝗘 𝗟𝗢𝗩𝗘 𝗨 🥰">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
@@ -20,7 +20,7 @@
 **※ ᴛᴇxᴛ ʙᴏᴛ ➛ [‌⚘ ʀ ᴅ x ☂ ᴍ ᴜ s ɪ ᴄ ₰](https://t.me/Queenkhushibot)**
 
 
- <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=🧋+𝗛𝗔𝗣𝗣𝗬+𝗡𝗘𝗪+𝗬𝗘𝗔𝗥+❷⓿❷❹+🧋">
+ <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=𝗜 𝗟𝗢𝗩𝗘 𝗨 𝗝𝗔𝗔𝗡 🥰💜">
 
 
 <h3 align="center">
@@ -50,7 +50,7 @@
 - Install Node js by :
 `curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Clone the repository by :
-`git clone https://github.com/tinaarobot/DAXXMUSIC && cd DAXXMUSIC`
+`git clone https://github.com/NOBITA-RDX/VDjRDX && cd RDXMUSIC`
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
 - Fill your variables in the env by :
