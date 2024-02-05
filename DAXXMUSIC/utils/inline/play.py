@@ -67,10 +67,10 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="˹sᴏᴜʀᴄᴇ˼", url="https://t.me/+RObRa7kXPIJmMjU1"
+                text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/+RObRa7kXPIJmMjU1"
             ),
             InlineKeyboardButton(
-                text="˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl"
+                text="sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl"
             ),
         ],
         [
@@ -96,10 +96,10 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="˹sᴏᴜʀᴄᴇ˼", url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw"
+                text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/+RObRa7kXPIJmMjU1"
             ),
             InlineKeyboardButton(
-                text="˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl"
+                text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl"
             ),
         ],
         [
@@ -108,7 +108,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(
                 text="𓆩🖤𓆪", user_id="1777270311"),
             InlineKeyboardButton(
-                text="▹▹", url="https://t.me/+RObRa7kXPIJmMjU1"       
+                text="▹▹", url="https://t.me/+okCO84m2hZxjYTE9"       
             ),
         ],
     ]
@@ -141,13 +141,13 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text="˹ʟɪᴠᴇ sᴜɴᴏ ʙᴀʙʏ˼",
+                text="˹ʟɪᴠᴇ ᴘʟᴀʏ ʙᴀʙʏ˼",
                 callback_data=f"LiveStream {videoid}|{user_id}|{mode}|{channel}|{fplay}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="˹sᴜᴘᴘᴏʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl",
+                text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl",
             ),
             InlineKeyboardButton(
                 text="˹๏ᴜꝛ ᴡᴏʀʟᴅ˼", url="https://t.me/+RObRa7kXPIJmMjU1",
